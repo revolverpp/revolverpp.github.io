@@ -4,7 +4,7 @@ window.onload = function() {
   var div = document.createElement("div");
   div.style.width = window.innerWidth;
   div.style.height = window.innerHeight;
-  document.appendChild(div);
+  document.body.appendChild(div);
 }
 
 window.onscroll = function() {
