@@ -1,5 +1,9 @@
 var page = 0;
 
 window.onload = function() {
-  window.addEventListener('scroll', function() { console.log("scroll"); }, true);
-}
+  
+};
+
+window.onmousewheel = function() {
+	console.log("scroll"); 
+};
