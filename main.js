@@ -4,6 +4,6 @@ window.onload = function() {
   
 };
 
-window.onmousewheel = function() {
-	console.log("scroll"); 
+window.onwheel = function(ev) {
+	console.log(ev.deltaX); 
 };
